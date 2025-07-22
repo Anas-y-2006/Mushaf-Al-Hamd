@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+  <head>
+    <!-- /////////////////////////// -->
+    <!-- HTML Meta Tags -->
+    <title>مصحف الحمد</title>
+    <meta name="description" content="مصحف الحمد">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://web3.mushafmakkah.com/ar">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="مصحف الحمد">
+    <meta property="og:description" content="مصحف الحمد">
+    <meta property="og:image"
+      content="https://opengraph.b-cdn.net/production/images/589d1f07-8d01-45b9-8340-f62b4007cf44.png?token=6QtWMId8v_tVF7VwdHeAdTTQKxqfN5qqinJURAX-knU&height=578&width=1200&expires=33268694130">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="web3.mushafmakkah.com">
+    <meta property="twitter:url" content="https://web3.mushafmakkah.com/ar">
+    <meta name="twitter:title" content="مصحف الحمد">
+    <meta name="twitter:description" content="مصحف الحمد">
+    <meta name="twitter:image"
+      content="https://opengraph.b-cdn.net/production/images/589d1f07-8d01-45b9-8340-f62b4007cf44.png?token=6QtWMId8v_tVF7VwdHeAdTTQKxqfN5qqinJURAX-knU&height=578&width=1200&expires=33268694130">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- ////////////////////////// -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushaf Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/ar-style.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=south" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+      p.rtl {
+        direction: ltr;
+      }
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Readex+Pro&display=swap');
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- <link rel="stylesheet" href="off-swiper-css/swiper.min.css" /> -->
+    <!-- <link rel="stylesheet" href="bootstrap.min.css" /> -->
+  </head>
+
+  <body>
+    <div style="overflow: hidden;">
+      <div id="main-page" class="first-section">
+        <div class="content container">
+          <div class="nav-bar">
+            <button class="menu-toggle" id="menu-toggle">
+              <img src="/imgs/menu.png" alt="menu">
+            </button>
+            <ul class="navbar-links" id="navbar-links">
+              <li><a href="#main-page"> الصفحة الرئيسية</a></li>
+              <li><a href="#about">حول</a></li>
+              <li><a href="#feature">المميزات</a></li>
+              <li><a href="#download">تحميل</a></li>
+              <li><a href="#contact">تصل بنا</a></li>
+            </ul>
+            <div class="navbar-actions">
+              <div class="language-switcher dropdown">
+                <button id="language-button" class="btn btn-secondary dropdown-toggle" type="button"
+                  data-bs-toggle="dropdown" aria-expanded="false"">
+                          <img src=" /imgs/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="">
+                  العربية
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html" onclick="setLanguage('English', 'ltr')">English</a>
+                  </li>
+                  <li><a class="dropdown-item" href="index-fr.html" onclick="setLanguage('فارسي', 'rtl')">فارسي</a></li>
+                </ul>
+              </div>
+              <button type="button" class="download-button btn btn-primary">
+                <span class="material-symbols-outlined">south</span>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.smartech.quran.moshafelhamd&pcampaignid=web_share">تحميل
+                  البرنامج</a>
+              </button>
+            </div>
+          </div>
+          <div class=" hero-section">
+            <div class="hero-text">
+              <h1 data-aos="fade-right"> مصحف الحمد</h1>
+              <p>
+                اكتشف تجربة فريدة لقراءة القرآن الكريم، والاستماع إلى تلاوات مُرتلة، وفهم معاني الآيات بكل يسر.
+                بخط عثماني واضح، وواجهة أنيقة، وميزات تُلبي كل احتياجاتك.
+              </p>
+              <div class="buttons">
+                <button type="button" class="download-button btn btn-primary rtl-btn">
+                  <span class="material-symbols-outlined">south</span>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.smartech.quran.moshafelhamd&pcampaignid=web_share">
+                    تحميل البرنامج</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary " data-bs-toggle="modal"
+                  data-bs-target="#videoModal">الڤيديو</button>
+                <!-- Modal لعرض الفيديو -->
+                <div dir="ltr" class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">شاهد الفيديو</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/G2klCnB5KW8?si=aU-CntPaylIzDDqA
+                          title=" YouTube video" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-image">
+              <img dir="ltr" data-aos="fade-left" class="img-hero" src="imgs/iMockup - iPhone 15 Pro Max (2).png"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="second-section">
+        <div class="title">
+          <div class="title-text">ابدأ رحلتك مع القرآن</div>
+          <img src="/imgs/Layer_1 (2).svg" alt="">
+        </div>
+        <div class="continer container">
+          <div data-aos="fade-right" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <div class="background-box"></div>
+              <img class="logo" src="/imgs/third.svg" alt="">
+              <div class="text-box">
+                <h3>ترجمات معاني القرآن الكريم</h3>
+                <p>فهم القرآن الكريم بلغتك من خلال ترجمة معانيه إلى اللغة الأمهرية.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/second.svg" alt="">
+              <div class="text-box">
+                <h3>قراءة القرآن الكريم</h3>
+                <p>استمتع بقراءة القرآن الكريم من نسخة موثوقة بتصميم جذاب.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/first.svg" alt="">
+              <div class="text-box">
+                <h3>بحث فوري وسريع</h3>
+                <p>البحث في نصوص القرآن الكريم وترجماته والبحث في أسماء السور وأجزاءها.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/seventh.svg" alt="">
+              <div class="text-box">
+                <h3>سهولة الاستخدام</h3>
+                <p>واجهة بسيطة مع إمكانيات متقدمة</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-right" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/sixth.svg" alt="">
+              <div class="text-box">
+                <h3>مشغل الصوت المتقدم</h3>
+                <p>يوفر لك المشغل إمكانيات متقدمة للتكرار وتوقيت التشغيل والمزيد.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/fifth.svg" alt="">
+              <div class="text-box">
+                <h3>الترجمة الصوتية</h3>
+                <p>الاستماع إلى الترجمة الصوتية لمعاني القرآن الكريم باللغة الأمهرية.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/forth.svg" alt="">
+              <div class="text-box">
+                <h3>تلاوات</h3>
+                <p>الاستماع إلى تلاوة القرآن الكريم بصوت مشاهير القراء.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="the-box">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img class="logo" src="/imgs/third.svg" alt="">
+              <div class="text-box">
+                <h3>متعدد اللغات</h3>
+                <p>تصفح التطبيق باللغة المفضلة لديك أو باللغة التي تريد عرض القرآن بها.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="feature" class="third-section">
+        <div style="display: flex; justify-content: center; align-items: center;" class="num-1 imgs-box">
+          <img class="fl" src="/imgs/phone-1.png" alt="">
+          <img class="midd" data-aos="fade-up" src="/imgs/phone-2.png" alt="">
+          <img class="fl" src="/imgs/phone-3.png" alt="">
+        </div>
+        <!------------------------------------- mediem---------------------------------->
+        <div id="wrapper">
+          <div class="main-phone-screen" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
+            <div class="iphonX-background" id="main"></div>
+            <div class="slider-screens">
+              <div class="main-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="imgs/phone-1.png" alt="مصحف القيام" /></div>
+                  <div class="swiper-slide"><img src="/imgs/phone-3.png" alt="مصحف القيام" /></div>
+                  <div class="swiper-slide"><img src="/imgs/1 1.png" alt="مصحف القيام" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+      </div>
+      <div data-scroll data-scroll-speed="1" class="second-section forth-section">
+        <div data-scroll data-scroll-speed="0.5" class="title">
+          <div class="title-text">أدوات إضافية</div>
+          <img src="/imgs/Layer_1 (2).svg" alt="">
+        </div>
+        <div data-aos="fade-up" class="continer container">
+          <div class="the-box the-box-2">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <div class="background-box"></div>
+              <img class="logo" src="/imgs/Tafsir.svg" alt="">
+              <div class="text-box">
+                <h3>التفسير المُيسّر</h3>
+                <p>تمتع بقراءة تفسير مُبسط للآيات القرآنية بجوار النص القرآني، مما يساعدك على فهم المعاني بشكل أعمق.
+                  التفسير مُقدّم من نخبة من العلماء ويأتي بتنسيق سهل القراءة.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="the-box the-box-2">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div class="co-content">
+              <img data-scroll data-scroll-speed="0.4" class="logo" src="/imgs/Notes.svg" alt="">
+              <div data-scroll data-scroll-speed="0.4" class="text-box">
+                <h3>التدوين والتدبُّر</h3>
+                <p>دوِّن خواطرك وتدبُّراتك أثناء قراءة القرآن واحتفظ بها كنسخة احتياطية على جهازك. يمكنك أيضًا تصديرها
+                  أو مشاركتها مع الآخرين بسهولة.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="the-box the-box-2">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
+              class="co-content">
+              <img style="width: 70px; margin-bottom: 20px; margin-top: 17px;" src="/imgs/Favorites .png" alt="">
+              <div data-scroll data-scroll-speed="0.4" class="text-box">
+                <h3>المفضلة</h3>
+                <p>احفظ الآيات أو السور المفضلة لديك في قائمة خاصة للرجوع إليها بسهولة في أي وقت. يمكنك تنظيمها وتعديلها
+                  حسب احتياجاتك.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="the-box the-box-2">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
+              class="co-content">
+              <img style="width: 70px; margin-bottom: 20px; margin-top: 17px;" src="/imgs/Night mode .png" alt="">
+              <div data-scroll data-scroll-speed="0.4" class="text-box">
+                <h3>الوضع الليلي</h3>
+                <p>تمتع بتجربة قراءة مريحة للعين مع الوضع الليلي الذي يقلل من إجهاد العين أثناء القراءة في الإضاءة
+                  الخافتة. التصميم الأنيق يجعل القراءة أكثر متعة.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="the-box the-box-2">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
+              class="co-content">
+              <img style="width: 70px; margin-bottom: 20px; margin-top: 17px;" src="/imgs/Sharing .png" alt="">
+              <div data-scroll data-scroll-speed="0.4" class="text-box">
+                <h3>المشاركة الاجتماعية</h3>
+                <p>شارك الآيات القرآنية أو التفسير مع أصدقائك وعائلتك عبر وسائل التواصل الاجتماعي أو تطبيقات المراسلة
+                  بضغطة زر واحدة.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="the-box the-box-2">
+            <img class="frills" src="/imgs/Group 50 (1).svg" alt="">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
+              class="co-content">
+              <img style="width: 70px; margin-bottom: 20px; margin-top: 17px;" src="/imgs/Mulit language .png" alt="">
+              <div data-scroll data-scroll-speed="0.4" class="text-box">
+                <h3>دعم متعدد اللغات</h3>
+                <p>يدعم التطبيق واجهة استخدام باللغتين العربية والإنجليزية، مع إمكانية قراءة ترجمة معاني الآيات
+                  بالإنجليزية من ترجمة "Saheeh International".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="footer">
+        <img class="footer-logo" src="/imgs/Mask group.svg" alt="">
+        <h2>المصحف</h2>
+        <div class="img-footer">
+          <a href="https://play.google.com/store/apps/details?id=com.smartech.quran.moshafelhamd&pcampaignid=web_share">
+            <img src="/imgs/Group 125.svg" alt="">
+          </a>
+          <a
+            href="https://apps.apple.com/us/app/%D9%85%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%AD%D9%85%D8%AF/id1265787391?platform=ipad">
+            <img src="/imgs/Group 126.svg" alt="">
+          </a>
+        </div>
+        <a href="privacy.html">Careers | Privacy Policy | Terms & Conditions</a>
+        <h5>Developed by <a href="qafgroup.net">qafgroup.net</a></h5>
+      </div>
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".main-slider", {
+        loop: true,
+        autoplay: {
+          delay: 1400,
+          disableOnInteraction: false,
+        },
+        effect: "fade",
+      });
+      AOS.init({
+        // offset: 300,
+        // duration: 1000,
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
